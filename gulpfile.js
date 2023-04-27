@@ -11,3 +11,8 @@ gulp.task("sass", function(done) {
     .pipe(gulp.dest("./dist/css"));
   done();
 });
+
+
+gulp.task("watch", function() {
+  gulp.watch("./src/sass/**/*.scss", gulp.series(["sass"]))
+})
