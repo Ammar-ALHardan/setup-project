@@ -9,6 +9,7 @@
   "author": "Ammar",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.29.1",
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
     "node-sass": "^8.0.0",
